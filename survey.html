@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>TED C.</title>
+		<link rel = "stylesheet" href = "css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class = "intro">
+				<h6>a survey named...</h6>
+			</div>
+			<div class = "title">
+				<h1>TED C.</h1>
+			</div>
+			<div class = "description">
+				<h4>thoughts on climate change</h4>
+			</div>
+		</header>
+		<section class = "interest">
+      <h2>
+        Section 1:
+      </h2>
+      <div class = "odd">
+      <span class = "number">1)</span> <p>How personally interested are you in helping to reduce climate change?</p>
+				<label><input type = "radio" name = "interest" value = "1">Not</label>
+                <label><input type = "radio" name = "interest" value = "2">Not really</label>
+                <label><input type = "radio" name = "interest" value = "3">Somewhat</label>
+                <label><input type = "radio" name = "interest" value = "4">Quite</label>
+                <label><input type = "radio" name = "interest" value = "5">Passionately</label></div>
+		</section>
+		<section class = "issue">
+      <h2>
+        Section 2:
+      </h2>
+      <div class = "even">
+      <span class = "number">2)</span> <p>Please describe - in your own words - to the best of your current knowledge, what is the supposed issue of climate change and why would anyone care? If you don't know, please leave a guess.</p>
+				<textarea style = "width:60%; height:4em;" placeholder = "What is climate change?"></textarea></div>
+      <div class = "odd">
+      <span class = "number">3)</span> <p>How big of an issue do you believe climate change to be?</p>
+				<label><input type = "radio" name = "scale" value = "1">Nothing to worry about</label>
+                <label><input type = "radio" name = "scale" value = "2">Not a big deal</label>
+                <label><input type = "radio" name = "scale" value = "3">A problem</label>
+                <label><input type = "radio" name = "scale" value = "4">A serious and dangerous issue</label>
+                <label><input type = "radio" name = "scale" value = "5">A catastrophic-level disaster</label></div>
+      <div class = "even">
+      <span class = "number">4)</span> <p>How solvable do you believe climate change to be on a large scale (ie. for the US national government)? </p>	
+				<label><input type = "radio" name = "govtract" value = "1">Action does nothing</label>
+                <label><input type = "radio" name = "govtract" value = "2">Action yields marginal results</label>
+                <label><input type = "radio" name = "govtract" value = "3">Action yields noticeable results</label>
+                <label><input type = "radio" name = "govtract" value = "4">Action yields positive results</label>
+                <label><input type = "radio" name = "govtract" value = "5">Action can solve the issue</label></div>
+      <div class = "odd">
+      <span class = "number">5)</span> <p>How solvable do you believe climate change to be on an individual scale? </p>
+				<label><input type = "radio" name = "indutract" value = "1">Action does nothing</label>
+                <label><input type = "radio" name = "indutract" value = "2">Action yields marginal results</label>
+                <label><input type = "radio" name = "indutract" value = "3">Action yields noticeable results</label>
+                <label><input type = "radio" name = "indutract" value = "4">Action yields positive results</label>
+                <label><input type = "radio" name = "indutract" value = "5">Action can solve the issue</label></div>
+      <div class = "even">
+      <span class = "number">6)</span> <p>How neglected is climate change?</p>
+				<label><input type = "radio" name = "neglect" value = "1">Nobody is currently working on it</label>
+                <label><input type = "radio" name = "neglect" value = "2">Some people are working on it</label>
+                <label><input type = "radio" name = "neglect" value = "3">Enough people are working on it</label>
+                <label><input type = "radio" name = "neglect" value = "4">Too many people are working on it</label></div>
+		</section>
+		<section class = "solution">
+      <h2>
+        Section 3:
+      </h2>
+      <div class = "odd">
+      <span class = "number">7)</span> <p>Please describe - in your own words - to the best of your current knowledge, what is the best solution to the issue of climate change? If possible, please start general and get more specific. If you don't know, please leave a guess. </p>
+				<textarea style = "width:60%; height:4em;" placeholder = "How to combat climate change?"></textarea></div>
+      <div class = "even">
+			<span class = "number">8)</span> <p>How would you rank the following in terms of effectiveness in solving the issue (please rank the most effective with the number 1 and increase the number for each subsequently less effective strategy):</p>
+			<label class = "ranking">Reducing electrical use</label> <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16">
+			<label class = "ranking">Switching to renewable energy sources <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Reducing flight travel time <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Reusing grocery bags <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Reducing family size (not adding more children and/or pets) <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Adopting instead of breeding/conceiving <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Recycling <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+			<label class = "ranking">Composting <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Lobbying for governmental policies <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Switching to an electric car <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Reducing car use <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Refusing unnecessary purchases or free handouts <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Reducing animal product consumption <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Learning more about the issue <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking">Fixing and reusing broken items instead of buying new ones <input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking"><textarea id="other" placeholder = "Other"></textarea><input style = "width:18em;" type = "number" name = "effectiveness" placeholder = "effectiveness" min = "1" max = "16"></label>
+      <label class = "ranking"><input type = "radio" name = "effectiveness" value = "1">(they're all ineffective)</label></div>
+    </section>
+		<section class = "understanding">
+      <h2>
+        Section 4:
+      </h2>
+      <div class = "odd">
+      <span class = "number">9)</span> <p>How would you rate your understanding of climate change?</p>
+				<label><input type = "radio" name = "credit" value = "1">No understanding</label>
+                <label><input type = "radio" name = "credit" value = "2">Limited</label>
+                <label><input type = "radio" name = "credit" value = "3">Average</label>
+                <label><input type = "radio" name = "credit" value = "4">Above average</label>
+                <label><input type = "radio" name = "credit" value = "5">Expert</label></div>
+		</section>
+    <section class = "experience">
+      <h2>
+        Section 5:
+      </h2>
+      <div class = "even">
+      <span class = "number">10)</span> <p>How did you come to this level of understanding?</p>
+				        <label class = "intention"><input type = "radio" name = "intention" value = "1">Completely by accident</label>
+                <label class = "intention"><input type = "radio" name = "intention" value = "2">Mostly by accident</label>
+                <label class = "intention"><input type = "radio" name = "intention" value = "3">Some effort in staying informed</label>
+                <label class = "intention"><input type = "radio" name = "intention" value = "4">Effort in staying informed specifically on this issue</label>
+                <label class = "intention"><input type = "radio" name = "intention" value = "5">Extreme effort in staying up to date and knowledgeable about this issue</label></div>
+      <div class = "odd">
+      <span class = "number">11)</span> <p>Through which media did you come to this level of understanding?</p>
+                <label class = "media"><input type = "checkbox" name = "media" value = "1">General public sources (tv, social media, school, radio, etc.)</label>
+                 <label class = "media"><input type = "checkbox" name = "media" value = "2">Podcasts, news, subscriptions</label>
+                 <label class = "media"><input type = "checkbox" name = "media" value = "3">Information search (articles, audio, videos, journals)</label>
+                 <label class = "media"><input type = "checkbox" name = "media" value = "4">Somebody believable that you know</label>
+                 <label class = "media"><input type = "checkbox" name = "media" value = "5">Personal research/academic work</label>
+                 <label class = "media"><input type = "checkbox" name = "media" value = "6">Other<textarea placeholder = "Please specify"></textarea></label></div>
+		</section>
+    <section class = "why-x">
+      <h2>
+        Section 6:
+      </h2>
+      <div class = "even">
+      <span class = "number">12)</span> <p>Why are you at least somewhat interested in helping to reduce climate change?</p>
+        <label class = "muse"><input type = "checkbox" name = "muse" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label class = "muse"><input type = "checkbox" name = "muse" value = "2">I believe the issue will make my life more difficult/add suffering</label>
+                 <label class = "muse"><input type = "checkbox" name = "muse" value = "3">I believe the issue will make life more difficult for people I care about/add suffering to their lives</label>
+                 <label class = "muse"><input type = "checkbox" name = "muse" value = "4">I believe it's an important issue</label>
+                 <label class = "muse"><input type = "checkbox" name = "muse" value = "5">I would enjoy helping to fix the issue</label>
+                <label class = "muse"><input type = "checkbox" name = "muse" value = "6">It makes me feel good when I work on the issue</label>
+                <label class = "muse"><input type = "checkbox" name = "muse" value = "7">I feel guilty if I don't try to help</label>
+                <label class = "muse"><input type = "checkbox" name = "muse" value = "8">I feel an obligation towards those whom it affects who cannot defend themselves</label>
+                <label class = "muse"><input type = "checkbox" name = "muse" value = "9">I want to preserve nature</label>
+                <label class = "muse"><input type = "checkbox" name = "muse" value = "10">Other<textarea placeholder = "Please specify"></textarea></label></div>
+    </section>
+    <section class = "why-y">
+      <h2>
+        Section 6:
+      </h2>
+      <div class = "even">
+      <span class = "number">12)</span> <p>Why are you less interested in helping to reduce climate change?</p>
+                  <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "2">I'm working on more important personal issues</label>
+                 <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "3">I'm working on more important altruistic issues</label>
+                <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "4">I don't believe I can help fix the issue significantly</label>
+                 <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "5">I don't believe it's a big issue</label>
+                <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "6">I don't know how to help</label>
+                <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "7">I don't believe the issue will affect me</label>
+                <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "8">I don't enjoy helping to fix the issue</label>
+                <label class = "dissuasion"><input type = "checkbox" name = "dissuasion" value = "9">Other<textarea placeholder = "Please specify"></textarea></label></div>
+		</section>
+    <section class = "behavior-x">
+      <h2>
+        Section 7:
+      </h2>
+      <div class = "odd">
+      <span class = "number">13)</span> <p>How do you feel you are helping to reduce climate change?</p>
+                <label><input type = "radio" name = "helpfulness" value = "1">I'm doing more harm than good</label>
+                <label><input type = "radio" name = "helpfulness" value = "2">I'm doing a poor job</label>
+                <label><input type = "radio" name = "helpfulness" value = "3">I'm doing okay</label>
+                <label><input type = "radio" name = "helpfulness" value = "4">I'm doing well</label>
+              <label><input type = "radio" name = "helpfulness" value = "5">I'm doing great</label></div>
+        <div class = "even">
+      <span class = "number">14)</span> <p>How would you like to feel about helping to reduce climate change?If you don't feel as helpful as you would like to feel, what do you think is stopping you?</p>
+      <label><input type = "radio" name = "feelwish" value = "1">(I don't care)</label>
+                <label><input type = "radio" name = "feelwish" value = "2">I wouldn't mind feeling useful</label>
+                <label><input type = "radio" name = "feelwish" value = "3">I want to feel helpful</label>
+                <label><input type = "radio" name = "feelwish" value = "4">I want to feel like I significantly contribute towards helping</label></div>
+        <div class = "odd">
+      <span class = "number">15)</span> <p>If you don't feel as helpful as you would like to feel, what do you think is stopping you?</p>
+                <label class = "border"><input type = "checkbox" name = "border" value = "1">I don't know how to be more helpful</label>
+                 <label class = "border"><input type = "checkbox" name = "border" value = "2">I don't think I can realistically help more</label>
+                 <label class = "border"><input type = "checkbox" name = "border" value = "3">I think there is at least some inherent lack of feeling of usefulness regardless of action</label>
+          <label class = "border"><input type = "checkbox" name = "border" value = "4">Other<textarea placeholder = "Please specify"></textarea></label></div>
+          <div class = "even">
+       <span class = "number">16)</span> <p>How well do you feel you follow common recommendations for reducing climate change (ie. recycling, disposing of waste properly, reusing bags)?</p>
+                <label class = "recommendations"><input type = "radio" name = "recommendations" value = "1">I do what's not recommended</label>
+                <label class = "recommendations"><input type = "radio" name = "recommendations" value = "2">I don't follow common recommendations</label>
+                <label class = "recommendations"><input type = "radio" name = "recommendations" value = "3">I usually follow general recommendations</label>
+                <label class = "recommendations"><input type = "radio" name = "recommendations" value = "4">I almost always follow recommendations</label>
+                <label class = "recommendations"><input type = "radio" name = "recommendations" value = "5">I usually find and implement ways to help before they are mainstream recommendations</label></div>
+      <div class = "odd">
+        <span class = "number">17)</span> <p>What have you done in the past to help reduce climate change?</p>
+                  <label class = "past"><input type = "checkbox" name = "past" value = "1">Reduce travel</label>
+                 <label class = "past"><input type = "checkbox" name = "past" value = "2">Reduce diet</label>
+                 <label class = "past"><input type = "checkbox" name = "past" value = "3">Reduce energy use</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "4">Make more energy efficient choices</label>
+                 <label class = "past"><input type = "checkbox" name = "past" value = "5">Reuse materials for another necessary purpose</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "6">Recyle</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "7">Repair and reuse necessary materials</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "8">Refuse unneccessary materials</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "9">Donate to research</label>
+                 <label class = "past"><input type = "checkbox" name = "past" value = "10">Donate towards carbon offsets</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "11">Donate towards advocacy/policy changes</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "12">Work directly towards research</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "13">Work directly towards an effective "green" company</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "14">Work directly towards advocacy/policy changes</label>
+                <label class = "past"><input type = "checkbox" name = "past" value = "15">Other<textarea placeholder = "Please specify"></textarea></label></div>
+          <div class = "even">
+      <span class = "number">18)</span> <p>What do you continue to do now to help reduce climate change?</p>
+                  <label class = "present"><input type = "checkbox" name = "present" value = "1">Reduce travel</label>
+                 <label class = "present"><input type = "checkbox" name = "present" value = "2">Reduce diet</label>
+                 <label class = "present"><input type = "checkbox" name = "present" value = "3">Reduce energy use</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "4">Make more energy efficient choices</label>
+                 <label class = "present"><input type = "checkbox" name = "present" value = "5">Reuse materials for another necessary purpose</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "6">Recyle</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "7">Repair and reuse necessary materials</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "8">Refuse unneccessary materials</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "9">Donate to research</label>
+                 <label class = "present"><input type = "checkbox" name = "present" value = "10">Donate towards carbon offsets</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "11">Donate towards advocacy/policy changes</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "12">Work directly towards research</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "13">Work directly towards an effective "green" company</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "14">Work directly towards advocacy/policy changes</label>
+                <label class = "present"><input type = "checkbox" name = "present" value = "15">Other<textarea placeholder = "Please specify"></textarea></label></div>
+      <div class = "odd">
+        <span class = "number">19)</span> <p>What do you think is the most effective thing you do to reduce climate change?</p>
+				<textarea style = "width:60%; height:4em;" placeholder = "Most effective way you combat climate change"></textarea></div>
+          <div class = "even">
+      <span class = "number">20)</span> <p>How do you do that?</p>
+				<textarea style = "width:60%; height:4em;" placeholder = "How you implement climate change solution"></textarea></div>
+      <div class = "odd">
+        <span class = "number">21)</span> <p>Why do you do that instead of other actions to help reduce climate change?</p>
+				         <label class = "decision"><input type = "checkbox" name = "decision" value = "1">It's convenient</label>
+                 <label class = "decision"><input type = "checkbox" name = "decision" value = "2">It's the most effective thing I can do</label>
+                 <label class = "decision"><input type = "checkbox" name = "decision" value = "3">I don't know of a more effective action I can take</label>
+                <label class = "decision"><input type = "checkbox" name = "decision" value = "4">Other options would be too difficult to realistically implement</label>
+                 <label class = "decision"><input type = "checkbox" name = "decision" value = "5">Other<textarea placeholder = "Please specify"></textarea></label>
+                <label class = "decision"><input type = "radio" name = "past" value = "6">N/A</label></div>
+          <div class = "even">
+   <span class = "number">22)</span> <p>Was it difficult to start?</p>
+                <label class = "difficult"><input type = "radio" name = "difficult" value = "1">yes</label>
+                <label class = "difficult"><input type = "radio" name = "difficult" value = "2">no</label></div>
+      <div class = "odd">
+        <span class = "number">23)</span> <p>Is it difficult to maintain?</p>
+                <label class = "difficultnow"><input type = "radio" name = "difficultnow" value = "1">yes</label>
+                <label class = "difficultnow"><input type = "radio" name = "difficultnow" value = "2">no</label></div>
+          <div class = "even">
+      <span class = "number">24)</span> <p>How much do you think it makes you feel better?</p>
+                <label><input type = "radio" name = "better" value = "1">Not at all</label>
+                <label><input type = "radio" name = "better" value = "2">Not much</label>
+                <label><input type = "radio" name = "better" value = "3">Somewhat</label>
+                <label><input type = "radio" name = "better" value = "4">A decent amount</label>
+                <label><input type = "radio" name = "better" value = "5">A lot better!</label></div>
+       <div class = "odd">
+        <span class = "number">25)</span> <p>How much do you think it makes you feel worse?</p>
+                <label><input type = "radio" name = "worse" value = "1">Not at all</label>
+                <label><input type = "radio" name = "worse" value = "2">Not much</label>
+                <label><input type = "radio" name = "worse" value = "3">Somewhat</label>
+                <label><input type = "radio" name = "worse" value = "4">A decent amount</label>
+                <label><input type = "radio" name = "worse" value = "5">A lot worse</label></div>
+          <div class = "even">
+      <span class = "number">26)</span> <p>Do you think it makes you feel better overall?</p>
+                <label class = "morebetter"><input type = "radio" name = "morebetter" value = "1">yes</label>
+                <label class = "morebetter"><input type = "radio" name = "morebetter" value = "2">no</label></div>
+      <div class = "odd">
+         <span class = "number">27)</span> <p>How did you get interested in climate change?</p>
+                  <label class = "start"><input type = "checkbox" name = "start" value = "1">Books </label>
+                 <label class = "start"><input type = "checkbox" name = "start" value = "2">News </label>
+                 <label class = "start"><input type = "checkbox" name = "start" value = "3">Podcasts</label>
+                <label class = "start"><input type = "checkbox" name = "start" value = "4">Videos</label>
+                 <label class = "start"><input type = "checkbox" name = "start" value = "5">Social media</label>
+                <label class = "start"><input type = "checkbox" name = "start" value = "6">People you know</label>
+                <label class = "start"><input type = "checkbox" name = "start" value = "7">Articles</label>
+                 <label class = "start"><input type = "checkbox" name = "start" value = "8">Other<textarea placeholder = "Please specify"></textarea></label>
+                <label><input type = "radio" name = "start" value = "9">N/A</label></div>
+                
+    </section>
+    
+    <section class = "behavior-y">
+      <h2>
+        Section 7:
+      </h2>
+      <div class = "odd">
+        <span class = "number">13)</span> <p>What other topics are you interested in?</p>
+                  <label class = "other"><input type = "checkbox" name = "other" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label class = "other"><input type = "checkbox" name = "other" value = "2">Risks from artificial intelligence</label>
+                 <label class = "other"><input type = "checkbox" name = "other" value = "3">Global priorities research</label>
+                <label class = "other"><input type = "checkbox" name = "other" value = "4">Improving institutional decision making</label>
+                 <label class = "other"><input type = "checkbox" name = "other" value = "5">Factory farming/animal welfare</label>
+                <label class = "other"><input type = "checkbox" name = "other" value = "6">Biosecurity</label>
+                <label class = "other"><input type = "checkbox" name = "other" value = "7">Nuclear security</label>
+                <label class = "other"><input type = "checkbox" name = "other" value = "8">Developing world health</label>
+              <label class = "other"><input type = "checkbox" name = "other" value = "9">Land use reform</label>
+              <label class = "other"><input type = "checkbox" name = "other" value = "10">Smoking in the developed world</label>
+                <label class = "other"><input type = "checkbox" name = "other" value = "11">Other<textarea placeholder = "Please specify"></textarea></label>
+              <label><input type = "radio" name = "other" value = "12">None</label></div>
+      <div class = "even">
+            <span class = "number">14)</span> <p>What do you do to contribute towards that/those issue(s)?</p>
+                  <label class = "contribute"><input type = "checkbox" name = "contribute" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label class = "contribute"><input type = "checkbox" name = "contribute" value = "2">Donate</label>
+                 <label class = "contribute"><input type = "checkbox" name = "contribute" value = "3">Direct work</label>
+                <label class = "contribute"><input type = "checkbox" name = "contribute" value = "4">Research/academic work</label>
+                 <label class = "contribute"><input type = "checkbox" name = "contribute" value = "5">Advocacy/policy change</label>
+                <label class = "contribute"><input type = "checkbox" name = "contribute" value = "6">Other<textarea placeholder = "Please specify"></textarea></label>
+                <label><input type = "radio" name = "contribute" value = "7">N/A</label></div>
+      
+<!--     add this question if 13 was "N/A"   -->
+      <div class = "even">
+                  <span class = "number">14)</span> <p>What else are you interested in?</p>
+                  <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "2">Expressing gratitude</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "3">Hobbies</label>
+                <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "4">Being in the moment</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "5">Playing sports</label>
+                <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "6">Practicing spirituality/religion</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "7">Meditating</label>
+                <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "8">Forgiving people</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "9">Making personal goals</label>
+                  <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "10">Building relationships</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "11">Being kind to others</label>
+                <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "12">Being optimistic</label>
+                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "13">Self acceptance</label>
+                <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "14">Other<textarea placeholder = "Please specify"></textarea></label>
+                <label><input type = "radio" name = "otherwise" value = "7">N/A</label></div>
+    
+    <div class = "odd">
+      <span class = "number">15)</span> <p>How did you get interested in that/those?</p>
+                  <label class = "ystart"><input type = "checkbox" name = "ystart" value = "1">Books </label>
+                 <label class = "ystart"><input type = "checkbox" name = "ystart" value = "2">News </label>
+                 <label class = "ystart"><input type = "checkbox" name = "ystart" value = "3">Podcasts</label>
+                <label class = "ystart"><input type = "checkbox" name = "ystart" value = "4">Videos</label>
+                 <label class = "ystart"><input type = "checkbox" name = "ystart" value = "5">Social media</label>
+                <label class = "ystart"><input type = "checkbox" name = "ystart" value = "6">People you know</label>
+                <label class = "ystart"><input type = "checkbox" name = "ystart" value = "7">Articles</label>
+                 <label class = "ystart"><input type = "checkbox" name = "ystart" value = "8">Other<textarea placeholder = "Please specify"></textarea></label>
+                <label><input type = "radio" name = "start" value = "9">N/A</label></div>
+		</section>
+    <section class = "continue-x">
+      <h2>
+        Section 8:
+      </h2>
+      <div class = "even">
+            <span class = "number">28)</span> <p>Do you think you could become more interested in climate change if presented similar resources?</p>
+                <label class = "pique"><input type = "radio" name = "pique" value = "1">yes</label>
+                <label class = "pique"><input type = "radio" name = "pique" value = "2">no</label></div>
+      <div class = "odd">     
+        <span class = "number">29)</span> <p>Do you want similar resources?</p>
+                <label class = "continue"><input type = "radio" name = "continue" value = "1">yes</label>
+                <label class = "continue"><input type = "radio" name = "continue" value = "2">no</label></div>
+		</section>
+    <section class = "continue-y">
+      <h2>
+        Section 8:
+      </h2>
+      <div class = "even">
+            <span class = "number">16)</span> <p>Do you think you could become more interested in climate change if presented similar resources?</p>
+                <label class = "ypique"><input type = "radio" name = "ypique" value = "1">yes</label>
+                <label class = "ypique"><input type = "radio" name = "ypique" value = "2">no</label></div>
+      <div class = "odd">
+            <span class = "number">17)</span> <p>Do you want similar resources?</p>
+                <label class = "ycontinue"><input type = "radio" name = "ycontinue" value = "1">yes</label>
+                <label class = "ycontinue"><input type = "radio" name = "ycontinue" value = "2">no</label></div>
+      <div class = "even">
+            <span class = "number">18)</span> <p>Do you think climate change would make anything you're interested in any worse in the future?</p>
+                <label class = "ruin"><input type = "radio" name = "ruin" value = "1">yes</label>
+                <label class = "ruin"><input type = "radio" name = "ruin" value = "2">no</label></div>
+        <div class = "odd">
+            <span class = "number">19)</span> <p>Hypothetically, if you answered yes to question 18, would you want to learn more about climate change?</p>
+                <label class = "final"><input type = "radio" name = "final" value = "1">yes</label>
+                <label class = "final"><input type = "radio" name = "final" value = "2">no</label></div>
+		</section>
+    
+    
+    <section class = "finish">
+      <h4>
+        Feedback and submit
+      </h4>
+          <p>
+            Please leave any feedback at all. Thoughts, feelings, comments. Resources are also appreciated. Please share any information you think is relevant and could help others!
+Thanks.
+      </p>
+      <label><textarea style = "width:60%; height:4em;" id = "comment" placeholder = "Comment"></textarea></label>
+      <br>
+      <a href = "#" src = "#" target = "_blank"><button id = "submit">Submit</button></a>
+		</section>
+	</body>
+</html>

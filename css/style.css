@@ -1,0 +1,94 @@
+.intro{
+  width:15%;
+  height:100%;
+  margin:0;
+  display: inline-block;
+  text-align:center;
+}
+h1{
+  transform:skewX(-35deg);
+  color: #165916;
+}
+.title{
+  width:50%;
+   margin:0;
+  display: inline-block;
+  text-align:center;
+  transform:skewX(35deg);
+  border-left: 1px solid #165916;
+  border-right: 1px solid #165916;
+}
+
+.description{
+  width:25%;
+  margin:0;
+  display: inline-block;
+  text-align:center;
+}
+
+.issue, .understanding, .why-x, .why-y, .continue-x, .continue-y{
+  background-color: #F0F0F0;
+}
+.why-y, .continue-y, .behavior-y{
+  display: none;
+}
+
+.ranking, .recommendations, .past, .present, .decision, .contribute, .intention, .muse, .media, .dissuasion, .border, .other, .otherwise{
+  display: block;
+}
+
+span{
+  display: block;
+  margin-top: 2em;
+  color: #165916;
+  font-weight: bold;
+}
+
+section{
+  margin-top: 4em;
+  width: 100%;
+  position: relative;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  left: 0;
+}
+input[type="number"]{
+  display:block;
+  margin-bottom: 1em;
+}
+
+#other{
+  margin-left:0;
+}
+
+body{
+  margin:0;
+}
+.even{
+  background-color:#F8F8F8;
+  width:100%;
+  position:relative;
+  left:-1em;
+  padding-left:1em;
+  padding-bottom: 1em;
+}
+
+@media(max-width:700px){
+  label{
+    display:block;
+  }
+  h4{
+  font-size: .75rem;
+  }
+  .pique, .ypique, .continue, .ycontinue, .difficult, .difficultnow, .ruin, .final, .morebetter{
+    display:inline-block;
+  }
+}
+
+textarea{
+  margin-left:1em;
+  display:block;
+}
+#comment{
+  margin-left:0;
+}
