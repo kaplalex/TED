@@ -1,3 +1,4 @@
+<!-- https://medium.freecodecamp.org/a-step-by-step-guide-to-getting-started-with-html-forms-7f77ae4522b5 -->
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
@@ -16,17 +17,20 @@
 				<h4>thoughts on climate change</h4>
 			</div>
 		</header>
+    <form action="https://kaplalex.com/form-test.php" method = "post">
 		<section class = "interest">
       <h2>
         Section 1:
       </h2>
       <div class = "odd">
       <span class = "number">1)</span> <p>How personally interested are you in helping to reduce climate change?</p>
-				<label><input type = "radio" name = "interest" value = "1">Not</label>
-                <label><input type = "radio" name = "interest" value = "2">Not really</label>
-                <label><input type = "radio" name = "interest" value = "3">Somewhat</label>
-                <label><input type = "radio" name = "interest" value = "4">Quite</label>
-                <label><input type = "radio" name = "interest" value = "5">Passionately</label></div>
+        <div class = "qone">
+			        	<label><input class = "aone" type = "radio" name = "interest" value = "1">Not</label>
+                <label><input class = "aone" type = "radio" name = "interest" value = "2">Not really</label>
+                <label><input class = "aone" type = "radio" name = "interest" value = "3">Somewhat</label>
+                <label><input class = "aone" type = "radio" name = "interest" value = "4">Quite</label>
+                <label><input class = "aone" type = "radio" name = "interest" value = "5">Passionately</label></div>
+        </div>
 		</section>
 		<section class = "issue">
       <h2>
@@ -167,7 +171,7 @@
                 <label><input type = "radio" name = "helpfulness" value = "4">I'm doing well</label>
               <label><input type = "radio" name = "helpfulness" value = "5">I'm doing great</label></div>
         <div class = "even">
-      <span class = "number">14)</span> <p>How would you like to feel about helping to reduce climate change?If you don't feel as helpful as you would like to feel, what do you think is stopping you?</p>
+      <span class = "number">14)</span> <p>How would you like to feel about helping to reduce climate change? If you don't feel as helpful as you would like to feel, what do you think is stopping you?</p>
       <label><input type = "radio" name = "feelwish" value = "1">(I don't care)</label>
                 <label><input type = "radio" name = "feelwish" value = "2">I wouldn't mind feeling useful</label>
                 <label><input type = "radio" name = "feelwish" value = "3">I want to feel helpful</label>
@@ -278,19 +282,22 @@
         Section 7:
       </h2>
       <div class = "odd">
+        <div class = "qtopics">
         <span class = "number">13)</span> <p>What other topics are you interested in?</p>
-                  <label class = "other"><input type = "checkbox" name = "other" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
-                 <label class = "other"><input type = "checkbox" name = "other" value = "2">Risks from artificial intelligence</label>
-                 <label class = "other"><input type = "checkbox" name = "other" value = "3">Global priorities research</label>
-                <label class = "other"><input type = "checkbox" name = "other" value = "4">Improving institutional decision making</label>
-                 <label class = "other"><input type = "checkbox" name = "other" value = "5">Factory farming/animal welfare</label>
-                <label class = "other"><input type = "checkbox" name = "other" value = "6">Biosecurity</label>
-                <label class = "other"><input type = "checkbox" name = "other" value = "7">Nuclear security</label>
-                <label class = "other"><input type = "checkbox" name = "other" value = "8">Developing world health</label>
-              <label class = "other"><input type = "checkbox" name = "other" value = "9">Land use reform</label>
-              <label class = "other"><input type = "checkbox" name = "other" value = "10">Smoking in the developed world</label>
-                <label class = "other"><input type = "checkbox" name = "other" value = "11">Other<textarea placeholder = "Please specify"></textarea></label>
-              <label><input type = "radio" name = "other" value = "12">None</label></div>
+                  <label><input class = "other" type = "checkbox" name = "other" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
+                 <label><input class = "other" type = "checkbox" name = "other" value = "2">Risks from artificial intelligence</label>
+                 <label><input class = "other" type = "checkbox" name = "other" value = "3">Global priorities research</label>
+                <label><input class = "other" type = "checkbox" name = "other" value = "4">Improving institutional decision making</label>
+                 <label><input class = "other" type = "checkbox" name = "other" value = "5">Factory farming/animal welfare</label>
+                <label><input class = "other" type = "checkbox" name = "other" value = "6">Biosecurity</label>
+                <label><input class = "other" type = "checkbox" name = "other" value = "7">Nuclear security</label>
+                <label><input class = "other" type = "checkbox" name = "other" value = "8">Developing world health</label>
+              <label><input class = "other" type = "checkbox" name = "other" value = "9">Land use reform</label>
+              <label><input class = "other" type = "checkbox" name = "other" value = "10">Smoking in the developed world</label>
+                <label><input class = "other" type = "checkbox" name = "other" value = "11">Other<textarea placeholder = "Please specify"></textarea></label>
+              <label><input class = "none" type = "radio" name = "other" value = "12">None</label></div>
+        </div>
+      <div class = "contributeInterest">
       <div class = "even">
             <span class = "number">14)</span> <p>What do you do to contribute towards that/those issue(s)?</p>
                   <label class = "contribute"><input type = "checkbox" name = "contribute" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
@@ -300,8 +307,10 @@
                  <label class = "contribute"><input type = "checkbox" name = "contribute" value = "5">Advocacy/policy change</label>
                 <label class = "contribute"><input type = "checkbox" name = "contribute" value = "6">Other<textarea placeholder = "Please specify"></textarea></label>
                 <label><input type = "radio" name = "contribute" value = "7">N/A</label></div>
+         </div>
       
 <!--     add this question if 13 was "N/A"   -->
+      <div class = "otherInterest">
       <div class = "even">
                   <span class = "number">14)</span> <p>What else are you interested in?</p>
                   <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "1">Personal<textarea placeholder = "Please specify"></textarea></label>
@@ -319,6 +328,7 @@
                  <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "13">Self acceptance</label>
                 <label class = "otherwise"><input type = "checkbox" name = "otherwise" value = "14">Other<textarea placeholder = "Please specify"></textarea></label>
                 <label><input type = "radio" name = "otherwise" value = "7">N/A</label></div>
+          </div>
     
     <div class = "odd">
       <span class = "number">15)</span> <p>How did you get interested in that/those?</p>
@@ -353,18 +363,24 @@
             <span class = "number">16)</span> <p>Do you think you could become more interested in climate change if presented similar resources?</p>
                 <label class = "ypique"><input type = "radio" name = "ypique" value = "1">yes</label>
                 <label class = "ypique"><input type = "radio" name = "ypique" value = "2">no</label></div>
-      <div class = "odd">
+      <div class = "odd more">
             <span class = "number">17)</span> <p>Do you want similar resources?</p>
-                <label class = "ycontinue"><input type = "radio" name = "ycontinue" value = "1">yes</label>
-                <label class = "ycontinue"><input type = "radio" name = "ycontinue" value = "2">no</label></div>
+                <label><input type = "radio" name = "ycontinue" value = "1">yes</label>
+                <label><input class = "ycontinue" type = "radio" name = "ycontinue" value = "2">no</label></div>
+      <div class = "lastQuestions">
       <div class = "even">
+          <div class = "hypo">
             <span class = "number">18)</span> <p>Do you think climate change would make anything you're interested in any worse in the future?</p>
-                <label class = "ruin"><input type = "radio" name = "ruin" value = "1">yes</label>
-                <label class = "ruin"><input type = "radio" name = "ruin" value = "2">no</label></div>
+                <label><input type = "radio" name = "ruin" value = "1">yes</label>
+                <label><input type = "radio" name = "ruin" value = "2">no</label></div>
+          </div>
         <div class = "odd">
+          <div class = "hypo2">
             <span class = "number">19)</span> <p>Hypothetically, if you answered yes to question 18, would you want to learn more about climate change?</p>
                 <label class = "final"><input type = "radio" name = "final" value = "1">yes</label>
                 <label class = "final"><input type = "radio" name = "final" value = "2">no</label></div>
+          </div>
+        </div>
 		</section>
     
     
@@ -373,12 +389,15 @@
         Feedback and submit
       </h4>
           <p>
-            Please leave any feedback at all. Thoughts, feelings, comments. Resources are also appreciated. Please share any information you think is relevant and could help others!
-Thanks.
+            Please leave any feedback at all. Thoughts, feelings, comments. Resources are also appreciated. Please share any information you think is relevant and could help others.
+Thanks!
       </p>
       <label><textarea style = "width:60%; height:4em;" id = "comment" placeholder = "Comment"></textarea></label>
       <br>
-      <a href = "#" src = "#" target = "_blank"><button id = "submit">Submit</button></a>
+      <button id = "submit">Submit</button>
 		</section>
+    </form>
+    <script src = "js/script.js"></script>
 	</body>
 </html>
+

@@ -29,7 +29,7 @@ h1{
 .issue, .understanding, .why-x, .why-y, .continue-x, .continue-y{
   background-color: #F0F0F0;
 }
-.why-y, .continue-y, .behavior-y{
+.why-y, .continue-y, .behavior-y .otherInterest, .lastQuestions{
   display: none;
 }
 
